@@ -19,7 +19,6 @@ public class GssEmployeeWeeklyBudgetId implements Serializable {
 	 */
 	private static final long serialVersionUID = 6070398085949393655L;
 
-//	@ManyToOne
 	@Column(name = "gss_employee_id")
 	private Long gssEmployeeId;
 

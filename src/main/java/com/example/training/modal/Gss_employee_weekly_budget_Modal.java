@@ -25,13 +25,8 @@ public class Gss_employee_weekly_budget_Modal {
 
 	@Column(name = "budget")
 	private BigDecimal budget;
-	
-//	@Column(name = "gss_employee_name")
-//	private String gss_employee_name;
-	
+
 	@Column(name = "order_element_name")
 	private String order_element_name;
-	
-//	@ManyToOne
-//	private Gss_employee gssEmployeeId;
+
 }

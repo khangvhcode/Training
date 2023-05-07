@@ -28,8 +28,5 @@ public class Gss_employee_Modal {
 	String code;
 	@Column(name = "price_cost")
 	BigDecimal price_cost;
-	
-//	@OneToMany(mappedBy = "gssEmployeeId", cascade = CascadeType.ALL, orphanRemoval = true)
-//    private List<Gss_employee_weekly_budget_Modal> orderItems = new ArrayList<>();
 
 }
